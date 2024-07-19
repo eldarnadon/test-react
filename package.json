@@ -2,7 +2,7 @@
   "name": "test-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eldarnadon.github.io/my-app",
+  "homepage": "https://eldarnadon.github.io/test-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
